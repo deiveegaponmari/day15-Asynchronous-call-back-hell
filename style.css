@@ -1,0 +1,19 @@
+.container{
+    width:100%;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   padding:50px;
+}
+#clickbutton{
+    height: 70px;
+    width:150px;
+}
+#displaydata{
+    color:white;
+    padding:10px;
+    background-color: blueviolet;
+    margin-top: 20px;
+}

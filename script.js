@@ -25,7 +25,9 @@ const timer = (cb) => {
                                     setTimeout(() => {
                                         displaydata.innerText = 1;
                                         setTimeout(() => {
-                                            displaydata.innerText = "Happy Independence Day"
+                                            displaydata.innerText = "Happy Independence Day";
+                                            const button = document.getElementById("clickbutton");
+                                            button.style.display="none";
                                         }, 1000)
                                     }, 1000)
                                 }, 1000)
@@ -40,4 +42,5 @@ const timer = (cb) => {
 const button = document.getElementById("clickbutton");
 button.addEventListener('click', () => {
     timer();
+    
 })
